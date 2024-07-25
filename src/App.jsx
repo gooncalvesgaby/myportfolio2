@@ -1,6 +1,8 @@
 import {createGlobalStyle} from "styled-components"
 import Inicio from "./Components/Inicio/inicio.jsx"
 import Infos from "./Components/Infos/info.jsx"
+import Sobre from "./Components/Sobre/sobre.jsx"
+import Rodape from "./Components/Rodape/rodape.jsx"
 const GlobalStyle = createGlobalStyle`
 *{
 margin = 0;
@@ -19,6 +21,8 @@ function App() {
     <GlobalStyle/>
     <Inicio/>
     <Infos/>
+    <Sobre/>
+    <Rodape/>
     </>
   )
 }
