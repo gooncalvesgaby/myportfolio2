@@ -10,7 +10,6 @@ justify-content: space-between;
 
 export const H1 = styled.h1`
 font-size: 2rem;
-
 `
 
 export const Ul = styled.ul`
