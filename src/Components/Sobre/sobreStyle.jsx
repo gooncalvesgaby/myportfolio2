@@ -7,7 +7,7 @@ align-items: start;
 padding: 2rem 10%;
 margin: 2rem 10%;
 text-align: -webkit-center;
-background-color: #bdbdbd29;
+// background-color: #bdbdbd29;
 `
 
 export const H2 = styled.h2`

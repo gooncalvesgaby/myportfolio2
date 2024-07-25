@@ -13,7 +13,7 @@ width: 100%;
 justify-content: center;
 align-items: center;
 font-size: 1.6rem;
-background-color: #bdbdbd29;
+// background-color: #bdbdbd29;
 height: 50vh
 `
 
