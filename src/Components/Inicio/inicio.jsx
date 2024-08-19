@@ -7,8 +7,6 @@ function Inicio() {
             <S.Ul>
                 <S.Li>Início</S.Li>
                 <S.Li>Sobre mim</S.Li>
-                <S.Li>Projetos</S.Li>
-                <S.Li>Contato</S.Li>
             </S.Ul>
         </S.Inicio>
     )

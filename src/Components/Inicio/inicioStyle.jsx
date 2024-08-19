@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Inicio = styled.div`
-background-color: #c7b9b91f;
+background-color: #9e9e9e1a;
 display: flex;
 padding: 1%;
 align-items: center;
