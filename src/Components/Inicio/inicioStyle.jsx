@@ -6,6 +6,7 @@ display: flex;
 padding: 1%;
 align-items: center;
 justify-content: space-between;
+border-radius: 5px;
 `
 
 export const H1 = styled.h1`

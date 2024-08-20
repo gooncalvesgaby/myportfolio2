@@ -5,7 +5,9 @@ display: flex;
 justify-content: space-between;
 margin: 2% 2%;
 font-size: 1rem;
-background-color: #c7b9b91f;
+background-color: #9e9e9e1a;
+padding: 0% 2%;
+border-radius: 5px;
 `
 
 export const H2 = styled.h2`
