@@ -10,7 +10,6 @@ box-sizing: border-box;
 font-family: "Roboto", sans-serif;
 font-weight: 300;
 font-style: normal;
-width: 100%;
 }
 `
 function App() {
