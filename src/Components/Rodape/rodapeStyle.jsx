@@ -1,4 +1,5 @@
 import styled from "styled-components"
+const mobileBreakpoint = '480px'
 
 export const Rodape = styled.div`
 display: flex;
@@ -8,6 +9,10 @@ font-size: 1rem;
 background-color: #9e9e9e1a;
 padding: 0% 2%;
 border-radius: 5px;
+
+@media only screen and (max-width: ${ mobileBreakpoint }) {
+width: 23rem;
+}
 `
 
 export const H2 = styled.h2`
