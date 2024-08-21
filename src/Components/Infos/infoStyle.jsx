@@ -29,7 +29,6 @@ export const H3 = styled.h3`
 @media only screen and (max-width: ${mobileBreakpoint}) {
 font-size: 15px;
 font-weight: bold;
-color: red;
 }
 `
 
