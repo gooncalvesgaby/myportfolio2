@@ -15,8 +15,8 @@ function Sobre() {
                 viajar, estudar e passar um tempo com as pessoas que eu amo.
                 </S.P>
             </div>
-            <div>
-                <S.H2>SOFT-SKILLS</S.H2>
+            <S.Container>
+                <S.H3>SOFT-SKILLS</S.H3>
                 <S.Div>Resolutividade</S.Div>
                 <S.Div>Organização</S.Div>
                 <S.Div>Criatividade</S.Div>
@@ -24,7 +24,7 @@ function Sobre() {
                 <S.Div>Comunicação assertiva</S.Div>
                 <S.Div>Pontualidade</S.Div>
                 <S.Div>Proatividade</S.Div>
-            </div>
+            </S.Container>
         </S.Sobre>
     )
 }
