@@ -12,13 +12,7 @@ text-align: -webkit-center;
 @media only screen and (max-width: ${mobileBreakpoint}) {
 display: flex;
 justify-content: center;
-}
-`
-
-
-export const Container = styled.div`
-@media only screen and (max-width: ${mobileBreakpoint}) {
-margin-top: 0.9rem;
+margin-left: 10rem;
 }
 `
 

@@ -11,7 +11,7 @@ padding: 0% 2%;
 border-radius: 5px;
 
 @media only screen and (max-width: ${ mobileBreakpoint }) {
-width: 23rem;
+width: 26rem;
 }
 `
 
