@@ -1,8 +1,6 @@
 import {createGlobalStyle} from "styled-components"
-import Inicio from "./Components/Inicio/inicio.jsx"
-import Infos from "./Components/Infos/info.jsx"
-import Sobre from "./Components/Sobre/sobre.jsx"
 import Rodape from "./Components/Rodape/rodape.jsx"
+import Rotas from "./Components/Rotas/rotas.jsx"
 
 const GlobalStyle = createGlobalStyle`
 *{
@@ -19,9 +17,7 @@ function App() {
   return (
     <>
     <GlobalStyle/>
-    <Inicio/>
-    <Infos/>
-    <Sobre/>
+    <Rotas/>
     <Rodape/>
     </>
   )
