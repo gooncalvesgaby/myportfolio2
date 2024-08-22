@@ -10,7 +10,6 @@ justify-content: space-between;
 border-radius: 5px;
 
 @media only screen and (max-width: ${mobileBreakpoint}) {
-width: 27rem;
 display: flex;
 justify-content: center;
 align-items: center;

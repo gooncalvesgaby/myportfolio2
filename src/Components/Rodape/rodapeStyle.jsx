@@ -4,14 +4,14 @@ const mobileBreakpoint = '480px'
 export const Rodape = styled.div`
 display: flex;
 justify-content: space-between;
-margin: 2% 2%;
+align-items: center;
 font-size: 1rem;
 background-color: #9e9e9e1a;
-padding: 0% 2%;
+padding: 5% 3%;
 border-radius: 5px;
 
 @media only screen and (max-width: ${ mobileBreakpoint }) {
-width: 26rem;
+
 }
 `
 
@@ -25,5 +25,5 @@ font-weight: 500;
 
 export const Div = styled.div`
 font-size: 3rem;
-margin-top: 2rem;
+
 `
