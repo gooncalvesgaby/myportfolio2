@@ -37,7 +37,7 @@ font-weight: bold;
 `
 
 export const P = styled.p`
-width: 21rem;
+
 font-size: 1.1rem;
 margin-top: 1%;
 line-height: 1.8em;
