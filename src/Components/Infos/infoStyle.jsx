@@ -5,9 +5,15 @@ export const Infos = styled.section`
 display: flex;
 padding: 1%;
 align-items: center;
-justify-content: space-between;
+justify-content: center;
 `
 
+export const About = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+min-height: 10rem;
+`
 export const Div = styled.div`
 display: flex;
 // width: 100%;

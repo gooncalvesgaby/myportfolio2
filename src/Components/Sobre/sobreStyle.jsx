@@ -18,11 +18,12 @@ padding: 5%;
 `
 
 export const Section = styled.div`
+max-width: 50%;
+
 @media only screen and (max-width: ${mobileBreakpoint}) {
 
 }
 `
-
 
 export const H2 = styled.h2`
 font-size: 1.8rem;
@@ -53,6 +54,8 @@ align-items: center;
 justify-content: center;
 font-size: 15px;
 margin: 10px;
+width: 100%;
+text-align: center;
 
 @media only screen and (max-width: ${mobileBreakpoint}) {
 width: 7rem;
