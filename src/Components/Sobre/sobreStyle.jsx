@@ -1,7 +1,7 @@
 import styled from "styled-components"
 const mobileBreakpoint = '480px'
 
-export const Sobre = styled.div`
+export const Container = styled.section`
 display: flex;
 justify-content: space-evenly;
 align-items: start;
@@ -11,10 +11,19 @@ text-align: -webkit-center;
 
 @media only screen and (max-width: ${mobileBreakpoint}) {
 display: flex;
-justify-content: center;
+flex-direction: column;
+align-items: center;
+padding: 5%;
 margin-left: 10rem;
 }
 `
+
+export const Section = styled.div`
+@media only screen and (max-width: ${mobileBreakpoint}) {
+
+}
+`
+
 
 export const H2 = styled.h2`
 font-size: 1.8rem;

@@ -2,8 +2,8 @@ import * as S from "./sobreStyle.jsx"
 
 function Sobre() {
     return(
-        <S.Sobre>
-            <div>
+        <S.Container>
+            <S.Section>
                 <S.H2>Um pouco sobre mim</S.H2>
                 <S.P>
                 Sou a Gaby, tenho 29 anos e moro em São Paulo. Sou 
@@ -14,8 +14,8 @@ function Sobre() {
                 remetem a historia do nosso mundo, gosto de auto-cuidado,
                 viajar, estudar e passar um tempo com as pessoas que eu amo.
                 </S.P>
-            </div>
-            <div>
+            </S.Section>
+            <S.Section>
                 <S.H3>SOFT-SKILLS</S.H3>
                 <S.Div>Resolutividade</S.Div>
                 <S.Div>Organização</S.Div>
@@ -24,8 +24,8 @@ function Sobre() {
                 <S.Div>Comunicação assertiva</S.Div>
                 <S.Div>Pontualidade</S.Div>
                 <S.Div>Proatividade</S.Div>
-            </div>
-        </S.Sobre>
+            </S.Section>
+        </S.Container>
     )
 }
 
