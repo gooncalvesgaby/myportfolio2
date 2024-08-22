@@ -16,10 +16,8 @@ min-height: 10rem;
 `
 export const Div = styled.div`
 display: flex;
-// width: 100%;
 justify-content: center;
 align-items: center;
-// font-size: 1.6rem;
 height: 50vh
 
 @media only screen and (max-width: ${mobileBreakpoint}) {
@@ -28,14 +26,28 @@ width: 25rem;
 `
 
 export const H1 = styled.h1`
-font-weight: bold
+font-weight: bold;
+font-size: 1.7rem;
 `
 
 export const H3 = styled.h3`
+font-size: 2rem;
+
 @media only screen and (max-width: ${mobileBreakpoint}) {
 font-size: 15px;
 font-weight: bold;
 }
+`
+
+export const H4 = styled.h4`
+font-size: 2.5rem;
+`
+
+export const Icons = styled.div`
+font-size: 1.5rem;
+display: flex;
+justify-content: flex-start;
+gap: 10px;
 `
 
 export const A = styled.a`
