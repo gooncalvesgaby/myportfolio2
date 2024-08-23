@@ -41,6 +41,10 @@ font-weight: bold;
 
 export const H4 = styled.h4`
 font-size: 2.5rem;
+
+@media only screen and (max-width: ${mobileBreakpoint}) {
+font-size: 1.5rem;
+}
 `
 
 export const Icons = styled.div`
