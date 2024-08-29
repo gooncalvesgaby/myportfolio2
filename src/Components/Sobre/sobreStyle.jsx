@@ -18,7 +18,8 @@ padding: 5%;
 `
 
 export const Section = styled.div`
-max-width: 50%;
+text-align: -webkit-center;
+letter-spacing: 1px;
 
 @media only screen and (max-width: ${mobileBreakpoint}) {
 
@@ -30,35 +31,9 @@ font-size: 1.8rem;
 font-weight: initial;
 `
 
-export const H3 = styled.h3`
-@media only screen and (max-width: ${mobileBreakpoint}) {
-font-size: 18px;
-font-weight: bold;
-}
-`
-
 export const P = styled.p`
 
 font-size: 1.1rem;
 margin-top: 1%;
-line-height: 1.8em;
-`
-
-export const Div = styled.div`
-background-color: black;
-color: white;
-border-radius: 15px;
-height: 2.2rem;
-display: flex;
-align-items: center;
-justify-content: center;
-font-size: 15px;
-margin: 10px;
-width: 100%;
-text-align: center;
-
-@media only screen and (max-width: ${mobileBreakpoint}) {
-width: 7rem;
-margin: 13px;
-}
+line-height: 1.9em;
 `

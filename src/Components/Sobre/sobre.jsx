@@ -15,16 +15,6 @@ function Sobre() {
                 viajar, estudar e passar um tempo com as pessoas que eu amo.
                 </S.P>
             </S.Section>
-            <S.Section>
-                <S.H3>SOFT-SKILLS</S.H3>
-                <S.Div>Resolutividade</S.Div>
-                <S.Div>Organização</S.Div>
-                <S.Div>Criatividade</S.Div>
-                <S.Div>Trabalho em equipe</S.Div>
-                <S.Div>Comunicação assertiva</S.Div>
-                <S.Div>Pontualidade</S.Div>
-                <S.Div>Proatividade</S.Div>
-            </S.Section>
         </S.Container>
     )
 }

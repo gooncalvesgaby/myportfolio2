@@ -9,9 +9,10 @@ font-size: 1rem;
 background-color: #9e9e9e1a;
 padding: 5% 3%;
 border-radius: 5px;
+max-height: 2rem;
 
 @media only screen and (max-width: ${ mobileBreakpoint }) {
-
+max-height: 5rem;
 }
 `
 
