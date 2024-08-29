@@ -3,17 +3,12 @@ const mobileBreakpoint = '480px'
 
 export const Container = styled.section`
 display: flex;
-justify-content: space-evenly;
-align-items: start;
 padding: 2rem 10%;
 margin: 2rem 10%;
 text-align: -webkit-center;
 
 @media only screen and (max-width: ${mobileBreakpoint}) {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 5%;
+display: inline;
 }
 `
 
@@ -22,7 +17,6 @@ text-align: -webkit-center;
 letter-spacing: 1px;
 
 @media only screen and (max-width: ${mobileBreakpoint}) {
-
 }
 `
 
@@ -30,6 +24,11 @@ export const H2 = styled.h2`
 font-size: 1.8rem;
 font-weight: initial;
 margin-top: 2rem;
+
+@media only screen and (max-width: ${mobileBreakpoint}) {
+font-size: 1.3rem;
+font-weight: 700;
+}
 `
 
 export const H5 = styled.h5`
