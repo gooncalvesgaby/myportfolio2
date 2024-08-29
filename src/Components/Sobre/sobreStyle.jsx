@@ -29,6 +29,13 @@ letter-spacing: 1px;
 export const H2 = styled.h2`
 font-size: 1.8rem;
 font-weight: initial;
+margin-top: 2rem;
+`
+
+export const H5 = styled.h5`
+font-size: 1.1rem;
+margin-top: 1%;
+line-height: 1.9em;
 `
 
 export const P = styled.p`
