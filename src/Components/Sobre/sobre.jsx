@@ -23,9 +23,9 @@ function Sobre() {
                 tomada de decisões. Prezo muito por organização e planejamento, e
                 acredito que esses são dois pontos que mais se destacam no meu dia
                 a dia e na vida. Sendo organizada e planejada, é possível alçar voos
-                mais altos. Prezo também muito pelo respeito, pois acredito que, com
+                mais altos. Prezo também pelo respeito, pois acredito que, com
                 tudo na vida, o respeito vem primeiro. Outro ponto-chave para mim é a
-                empatia; estou sempre disposta a ajudar o outro. Gosto de estar em
+                empatia; estou sempre disposta a entender e ajudar o outro. Gosto de estar em
                 constante aprendizado e de levar meu conhecimento adiante. Estou
                 sempre aberta a novas ideias.
                 </S.H5>
