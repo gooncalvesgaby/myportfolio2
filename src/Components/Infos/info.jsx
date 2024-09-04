@@ -7,7 +7,7 @@ function Infos() {
         <S.Infos>
             <S.Div>
                 <S.About>
-                    <S.H4>Olá, eu sou a "LUCAAAAAAAAS"</S.H4>
+                    <S.H4>Olá, eu sou a</S.H4>
                     <S.H1>Gaby <i class="fa-solid fa-code"></i></S.H1>
                     <S.H3>Desenvolvedora front-end</S.H3>
                     <S.Icons>
