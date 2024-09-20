@@ -55,7 +55,7 @@ gap: 10px;
 `
 
 export const A = styled.a`
-color: inherit;
+color: black;
 
 @media only screen and (max-width: ${mobileBreakpoint}) {
 margin: 5px;
