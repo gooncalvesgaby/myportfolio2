@@ -37,13 +37,8 @@ function Carousel() {
           onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide><S.Img
-                            src={myHtml}
-                            alt="Imagem de marcação HTML"
-                            />
-          </SwiperSlide>
-          <SwiperSlide><S.Img
-                            src={myCss}
-                            alt="Imagem de estilo CSS"
+                            src={Rct}
+                            alt="Imagem do framework React"
                             />
           </SwiperSlide>
           <SwiperSlide><S.Img
@@ -57,13 +52,18 @@ function Carousel() {
                             />
           </SwiperSlide>
           <SwiperSlide><S.Img
-                            src={Rct}
-                            alt="Imagem do framework React"
+                            src={myCss}
+                            alt="Imagem de estilo CSS"
                             />
           </SwiperSlide>
           <SwiperSlide><S.Img
                             src={sc}
                             alt="Imagem de estilov styled-components"
+                            />
+          </SwiperSlide>
+          <SwiperSlide><S.Img
+                            src={myHtml}
+                            alt="Imagem de marcação HTML"
                             />
           </SwiperSlide>
         </Swiper>
