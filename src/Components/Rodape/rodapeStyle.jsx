@@ -12,7 +12,7 @@ border-radius: 5px;
 max-height: 2rem;
 
 @media only screen and (max-width: ${ mobileBreakpoint }) {
-max-height: 5rem;
+min-height: 18vh;
 }
 `
 

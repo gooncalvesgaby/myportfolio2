@@ -27,47 +27,47 @@ function Carousel() {
     ]
 
     return(
-      <S.CarouselContainer>
-        <Swiper
-          spaceBetween={50}
-          slidesPerView={1}
-          pagination={{ clickable: true }}
-          navigation
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
-        >
-          <SwiperSlide><S.Img
-                            src={Rct}
-                            alt="Imagem do framework React"
-                            />
-          </SwiperSlide>
-          <SwiperSlide><S.Img
-                            src={Js}
-                            alt="Imagem da linguagem JS"
-                            />
-          </SwiperSlide>
-          <SwiperSlide><S.Img
-                            src={Ts}
-                            alt="Imagem da linguagem TS"
-                            />
-          </SwiperSlide>
-          <SwiperSlide><S.Img
-                            src={myCss}
-                            alt="Imagem de estilo CSS"
-                            />
-          </SwiperSlide>
-          <SwiperSlide><S.Img
-                            src={sc}
-                            alt="Imagem de estilov styled-components"
-                            />
-          </SwiperSlide>
-          <SwiperSlide><S.Img
-                            src={myHtml}
-                            alt="Imagem de marcação HTML"
-                            />
-          </SwiperSlide>
-        </Swiper>
-      </S.CarouselContainer>
+        <S.CarouselContainer>
+          <Swiper
+            spaceBetween={50}
+            slidesPerView={1}
+            pagination={{ clickable: true }}
+            navigation
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => console.log(swiper)}
+          >
+            <SwiperSlide><S.Img
+                              src={Rct}
+                              alt="Imagem do framework React"
+                              />
+            </SwiperSlide>
+            <SwiperSlide><S.Img
+                              src={Js}
+                              alt="Imagem da linguagem JS"
+                              />
+            </SwiperSlide>
+            <SwiperSlide><S.Img
+                              src={Ts}
+                              alt="Imagem da linguagem TS"
+                              />
+            </SwiperSlide>
+            <SwiperSlide><S.Img
+                              src={myCss}
+                              alt="Imagem de estilo CSS"
+                              />
+            </SwiperSlide>
+            <SwiperSlide><S.Img
+                              src={sc}
+                              alt="Imagem de estilov styled-components"
+                              />
+            </SwiperSlide>
+            <SwiperSlide><S.Img
+                              src={myHtml}
+                              alt="Imagem de marcação HTML"
+                              />
+            </SwiperSlide>
+          </Swiper>
+        </S.CarouselContainer>
     )
 }
 

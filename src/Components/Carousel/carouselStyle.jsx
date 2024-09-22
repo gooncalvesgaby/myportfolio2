@@ -19,4 +19,9 @@ export const Img = styled.img`
 width: 100%; 
 height: 60vh; 
 object-fit: contain; 
+
+@media only screen and (max-width: ${mobileBreakpoint}) {
+height: 48vh;
+}
 `
+
