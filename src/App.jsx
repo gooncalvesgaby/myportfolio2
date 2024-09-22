@@ -10,10 +10,11 @@ box-sizing: border-box;
 font-family: "Roboto", sans-serif;
 font-weight: 300;
 font-style: normal;
+color: #000000ed;
 }
 
 html, body {
- width: 100%;
+width: 100%;
 }
 `
 function App() {

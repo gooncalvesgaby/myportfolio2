@@ -3,7 +3,6 @@ const mobileBreakpoint = '480px'
 
 export const CarouselContainer = styled.div`
 width: 100%; 
-max-width: 1200px; 
 height: 400px; 
 margin-top: 6rem;
 display: flex;

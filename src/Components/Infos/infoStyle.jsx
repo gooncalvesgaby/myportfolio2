@@ -1,20 +1,15 @@
 import styled from "styled-components"
 const mobileBreakpoint = '480px'
 
-export const Infos = styled.section`
+export const Section = styled.section`
 display: flex;
 padding: 1%;
 align-items: center;
 justify-content: center;
+flex-direction: column;  
 `
 
-export const About = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-min-height: 10rem;
-`
-export const Div = styled.div`
+export const Infos = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
@@ -23,6 +18,13 @@ height: 50vh
 @media only screen and (max-width: ${mobileBreakpoint}) {
 width: 25rem;
 }
+`
+
+export const About = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+min-height: 10rem;
 `
 
 export const H1 = styled.h1`
@@ -72,3 +74,9 @@ margin-left: 2rem;
 width: 9rem;
 }
 `
+
+// export const Habilidade = styled.p`
+// margin-top: 30px;   
+// text-align: center; 
+// font-size: 1.5rem;  
+// `

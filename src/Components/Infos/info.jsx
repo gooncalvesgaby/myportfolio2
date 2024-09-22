@@ -4,8 +4,8 @@ import Eu from "../Infos/eu.png"
 
 function Infos() {
     return(
-        <S.Infos>
-            <S.Div>
+        <S.Section>
+            <S.Infos>
                 <S.About>
                     <S.H4>Olá, eu sou a</S.H4>
                     <S.H1>Gaby <i class="fa-solid fa-code"></i></S.H1>
@@ -16,8 +16,9 @@ function Infos() {
                     </S.Icons>
                 </S.About>
                 <S.Img src={Eu}/>
-            </S.Div>
-        </S.Infos>
+            </S.Infos>
+            {/* <S.Habilidade>MINHAS PRINCIPAIS HABILIDADES</S.Habilidade> */}
+        </S.Section>
     )
 }
 
