@@ -8,6 +8,7 @@ function Header() {
             <S.Ul>
                 <S.Li><Link to="/">Início</Link></S.Li>
                 <S.Li><Link to="/Sobre">Sobre</Link></S.Li>
+                <S.Li><Link to="/Blog">My Blog</Link></S.Li>
             </S.Ul>
         </S.HeaderBox>
         </>

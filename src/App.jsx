@@ -3,6 +3,8 @@ import Rodape from "./Components/Rodape/rodape.jsx"
 import Rotas from "./Components/Rotas/rotas.jsx"
 
 const GlobalStyle = createGlobalStyle`
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap')
+
 *{
 margin: 0;
 padding: 0;
